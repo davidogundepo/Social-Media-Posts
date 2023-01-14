@@ -5,7 +5,8 @@ import 'package:twitter_oembed_api/twitter_oembed_api.dart';
 
 
 String data = 'yesssssssss';
-String david = 'CovPhoenixFC';
+String tdavid = 'CovPhoenixFC';
+String fbpost = 'pfbid06ofmmSCg7mRh5yHa7b5eADfooExnfMy8VQi5DW9WcfE8E9WzbyuSYUefYKv8czTgl';
 String data3 = 'meeeeeeeee';
 
 dynamic embeddedTimeline;
@@ -92,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
 </head>
 <body style="pointer-events: none">
 <a class="twitter-timeline" data-tweet-limit="5" data-chrome="nofooter"
- data-theme="dark" href="https://twitter.com/$david?ref_src=twsrc%5Etfw">Tweets by $david</a>
+ data-theme="dark" href="https://twitter.com/$tdavid?ref_src=twsrc%5Etfw">Tweets by $tdavid</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
@@ -100,13 +101,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>  
   <div class="fb-post" 
-      data-href="https://www.facebook.com/20531316728/posts/10154009990506729/"
-      data-width="500"></div>
-      
+      data-href="https://www.facebook.com/udoisohm/posts/$fbpost"
+      ></div>
       <br>
       <br>
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffeyisayo.fagbadegun%2Fposts%2Fpfbid0fgNL9p7tXGLbMs5ieUoWMo67PeC55hFj92zTRNjYJMMDmBc53yQvoebjFTe5m6h7l&show_text=true&width=500" width="500" height="396" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+     
 </body>
 </html>
 '''
