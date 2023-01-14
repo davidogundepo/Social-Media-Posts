@@ -6,7 +6,7 @@ import 'package:twitter_oembed_api/twitter_oembed_api.dart';
 
 String data = 'yesssssssss';
 String tdavid = 'CovPhoenixFC';
-String fbpost = 'pfbid06ofmmSCg7mRh5yHa7b5eADfooExnfMy8VQi5DW9WcfE8E9WzbyuSYUefYKv8czTgl';
+String fbpost = '10230216701908573';
 String data3 = 'meeeeeeeee';
 
 dynamic embeddedTimeline;
