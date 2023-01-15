@@ -28,7 +28,7 @@ void main() async {
   )
   ));
 
-  log('data: $data');
+  // log('data: $data');
 
 
 
@@ -67,10 +67,10 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    log(embeddedTimeline.html);
-    // log(this.embeddedTimelineHtml);
+    // log(embeddedTimeline.html);
+    //.// log(this.embeddedTimelineHtml);
 
-    log('data: $data3');
+    // log('data: $data3');
 
     return Scaffold(
       appBar: AppBar(
