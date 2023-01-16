@@ -97,7 +97,6 @@ class _MyHomePageState extends State<MyHomePage> {
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
-<br>
 
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>  
   <div class="fb-post" 
