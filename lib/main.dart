@@ -74,6 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // log('data: $data3');
 
     return Scaffold(
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         title: const Text('sss'),
       ),
@@ -81,8 +82,12 @@ class _MyHomePageState extends State<MyHomePage> {
         // child: Text(embeddedTimeline.html),
         // child: Text(this.embeddedTimelineHtml,),
       child: Container(
-        height: MediaQuery.of(context).size.height * .75,
+        color: Colors.blue,
+        height: MediaQuery.of(context).size.height * .65,
         child: InAppWebView(
+          initialOptions: InAppWebViewGroupOptions(
+            crossPlatform: InAppWebViewOptions(transparentBackground: true)
+          ),
           // data: embeddedTimeline.html
           initialData: InAppWebViewInitialData(
               data: '''
@@ -93,8 +98,8 @@ class _MyHomePageState extends State<MyHomePage> {
         <meta name="viewport" content="initial-scale=1, user-scalable=no"/>
 </head>
 <body style="pointer-events: none">
-<a class="twitter-timeline" data-tweet-limit="5" data-chrome="nofooter"
- data-theme="light" href="https://twitter.com/$tdavid?ref_src=twsrc%5Etfw">Tweets by $tdavid</a>
+<a class="twitter-timeline" data-tweet-limit="4" data-chrome="nofooter"
+ data-theme="dark" href="https://twitter.com/$tdavid?ref_src=twsrc%5Etfw">Tweets by $tdavid</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
