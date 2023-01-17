@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
 </head>
 <body style="pointer-events: none">
 <a class="twitter-timeline" data-tweet-limit="5" data-chrome="nofooter"
- data-theme="dark" href="https://twitter.com/$tdavid?ref_src=twsrc%5Etfw">Tweets by $tdavid</a>
+ data-theme="light" href="https://twitter.com/$tdavid?ref_src=twsrc%5Etfw">Tweets by $tdavid</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
