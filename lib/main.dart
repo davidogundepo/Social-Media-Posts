@@ -15,6 +15,8 @@ dynamic embeddedTimeline;
 
 void main() async {
 
+  /// Using Twitter OEmbedApi
+
   final twitterApi = TwitterOEmbedApi();
 
   embeddedTimeline = await twitterApi.publishEmbeddedTimeline(
@@ -67,6 +69,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+
+
+    /// Using Flutter InAppWebView Eventually
 
     // log(embeddedTimeline.html);
     //.// log(this.embeddedTimelineHtml);
